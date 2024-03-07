@@ -12,7 +12,6 @@ const accent_font = Quicksand({
 export const metadata: Metadata = {
   title: { default: 'Kuruwaa', template: '%s - Kuruwaa' },
   description: 'Accessible Care for a Balanced Life',
-
   openGraph: {
     type: 'website',
     url: 'https://kuruwa.vercel.app/',
