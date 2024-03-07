@@ -10,9 +10,9 @@ const accent_font = Quicksand({
 });
 
 export const metadata: Metadata = {
-  title: 'Kuruwaa',
+  title: { default: 'Kuruwaa', template: '%s - Kuruwaa' },
   description: 'Accessible Care for a Balanced Life',
-  
+
   openGraph: {
     type: 'website',
     url: 'https://kuruwa.vercel.app/',
@@ -20,11 +20,9 @@ export const metadata: Metadata = {
     description:
       'Find the care you need, when you need it, and experience the peace of mind that comes from knowing you have a helping hand.',
     siteName: 'Kuruwaa',
-    images: [
-      {
-        url: './opengraph-image.png',
-      },
-    ],
+  },
+  twitter: {
+    card: 'summary_large_image',
   },
 };
 
