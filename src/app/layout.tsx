@@ -22,7 +22,7 @@ export const metadata: Metadata = {
     siteName: 'Kuruwaa',
     images: [
       {
-        url: '../assets/images/og.png',
+        url: './opengraph-image.png',
       },
     ],
   },
