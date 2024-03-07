@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import { Manrope, Quicksand } from 'next/font/google';
 import './globals.css';
-import og from '@/assets/images/og.png';
+import og from '@/assets/images/og.png'
 
 const base_font = Manrope({ subsets: ['latin'] });
 const accent_font = Quicksand({
@@ -12,7 +12,7 @@ const accent_font = Quicksand({
 export const metadata: Metadata = {
   title: 'Kuruwaa',
   description: 'Accessible Care for a Balanced Life',
-
+  
   openGraph: {
     type: 'website',
     url: 'https://kuruwa.vercel.app/',
@@ -22,7 +22,7 @@ export const metadata: Metadata = {
     siteName: 'Kuruwaa',
     images: [
       {
-        url: og.src,
+        url: '../assets/images/og.png',
       },
     ],
   },
