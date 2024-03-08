@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import { Manrope, Quicksand } from 'next/font/google';
 import './globals.css';
-import og from '@/assets/images/og.png'
+import og from './opengraph-image.png'
 
 const base_font = Manrope({ subsets: ['latin'] });
 const accent_font = Quicksand({
@@ -19,8 +19,12 @@ export const metadata: Metadata = {
     description:
       'Find the care you need, when you need it, and experience the peace of mind that comes from knowing you have a helping hand.',
     siteName: 'Kuruwaa',
+    images:[og.src]
   },
   twitter: {
+    title: 'Kuruwaa',
+    description:
+      'Find the care you need, when you need it, and experience the peace of mind that comes from knowing you have a helping hand.',
     card: 'summary_large_image',
   },
 };
