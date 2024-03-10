@@ -1,5 +1,5 @@
 import React from 'react';
-import { Features, Hero, FeaturesScroll } from '.';
+import { Features, Hero, FeaturesScroll, Services, Download, CTA } from '.';
 
 export const Homepage = () => {
   return (
@@ -7,6 +7,9 @@ export const Homepage = () => {
       <Hero />
       <FeaturesScroll />
       <Features />
+      <Download/>
+      <Services/>
+      <CTA/>
     </>
   );
 };
