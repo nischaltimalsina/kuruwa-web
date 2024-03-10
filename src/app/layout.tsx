@@ -11,20 +11,28 @@ const accent_font = Oxygen({
 });
 
 export const metadata: Metadata = {
-  title: { default: 'Kuruwaa', template: '%s - Kuruwaa' },
+  title: { default: 'Kuruwa', template: '%s - Kuruwa' },
   metadataBase: new URL('https://kuruwacare.com'),
   description: 'Accessible Care for a Balanced Life',
+  icons: {
+    icon: [
+      {
+        url: '/public/icon.svg',
+        href: '/icon.svg',
+      },
+    ],
+  },
   openGraph: {
     type: 'website',
     url: 'https://kuruwacare.com/',
-    title: 'Kuruwaa',
+    title: 'Kuruwa',
     description:
       'Find the care you need, when you need it, and experience the peace of mind that comes from knowing you have a helping hand.',
-    siteName: 'Kuruwaa',
+    siteName: 'Kuruwa',
     images: [og.src],
   },
   twitter: {
-    title: 'Kuruwaa',
+    title: 'Kuruwa',
     description:
       'Find the care you need, when you need it, and experience the peace of mind that comes from knowing you have a helping hand.',
     card: 'summary_large_image',

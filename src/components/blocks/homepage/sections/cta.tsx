@@ -21,15 +21,20 @@ export const CTA = () => {
             the perfect fit for your needs.
           </p>
           <div className='w-full max-w-2xl flex justify-center lg:justify-start'>
-            <a href='/contact' className='w-fit'>
+
               <Button
                 size={'lg'}
+                asChild
                 variant='outline'
                 className='border-primary bg-transparent rounded-full text-lg sm:text-xl font-light w-full sm:w-fit h-12 gap-4 mt-3'>
-                Get in Touch
-                <ArrowRightIcon className='h-6 w-6' />
+                <a
+                  href='/about#contact'
+                  className='flex gap-4 items-center justify-between'>
+                  Get in Touch
+                  <ArrowRightIcon className='h-6 w-6' />
+                </a>
               </Button>
-            </a>
+
           </div>
         </div>
       </div>

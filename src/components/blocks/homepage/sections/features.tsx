@@ -13,19 +13,19 @@ export const Features = () => {
             </h2>
             <p className='mt-4 text-base sm:text-xl text-muted-foreground font-light'>
               Whether you need companionship for a loved one, assistance with
-              errands, or help managing your health needs, Kuruwaa is here to
+              errands, or help managing your health needs, Kuruwa is here to
               make your life easier.
             </p>
           </div>
 
           <div className='flex gap-12 h-fit items-center justify-center flex-wrap lg:flex-nowrap'>
-            <Image src={caretaker} alt='Kuruwaa Caretaker' className='' />
+            <Image src={caretaker} alt='Kuruwa Caretaker' className='' />
             <div className='text-center lg:text-start text-balance lg:text-pretty lg:max-w-xl space-y-4'>
               <p className='text-xl md:text-2xl '>
                 On-Demand Caretakers - Your Trusted Support Network
               </p>
               <p className='md:text-lg font-light'>
-                Kuruwaa connects you with compassionate and qualified on-demand
+                Kuruwa connects you with compassionate and qualified on-demand
                 caretakers who can provide essential support throughout your or
                 your loved ones&apos; hospital stay.
               </p>
@@ -46,12 +46,12 @@ export const Features = () => {
           </div>
           {/* <div className='flex justify-center flex-wrap'>
             <div className='basis-full mb-3 text-center'>
-              <p className='text-2xl'>How to book a Kuruwaa?</p>
+              <p className='text-2xl'>How to book a Kuruwa?</p>
             </div>
             <div className='basis-full sm:basis-1/2 md:basis-1/3 pt-3 flex xl:basis-1/5 pr-3'>
               <div className='px-5 py-3 border w-full rounded-lg'>
                 <p className='text-lg font-semibold'>Step 1</p>
-                <p className=''>Open Kuruwaa App</p>
+                <p className=''>Open Kuruwa App</p>
               </div>
             </div>
             <div className='basis-full sm:basis-1/2 md:basis-1/3 pt-3 flex xl:basis-1/5 pr-3'>
@@ -76,7 +76,7 @@ export const Features = () => {
               <div className='px-5 py-3 border w-full rounded-lg '>
                 <p className='text-lg font-semibold'>Step 1</p>
                 <p className=''>
-                  Congratulations, your Kuruwaa will arrive shortly.
+                  Congratulations, your Kuruwa will arrive shortly.
                 </p>
               </div>
             </div>

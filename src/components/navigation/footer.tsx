@@ -18,9 +18,9 @@ export const Footer = () => {
         <div className='flex gap-12 flex-wrap justify-between'>
           <div className='flex flex-col gap-2 w-full xl:max-w-fit'>
             <div className='flex gap-2 items-center'>
-              <Logo className='h-12 w-12' />
+              <Logo className='h-12 w-12 [&>path]:fill-primary' />
               <h2 className='text-primary text-3xl font-semibold font-accent tracking-tighter'>
-                Kuruwaa
+                Kuruwa
               </h2>
             </div>
             <div className='max-w-lg'>
@@ -73,9 +73,7 @@ export const Footer = () => {
             <p className='font-medium text-primary'>Useful Links</p>
             <nav className='flex flex-col gap-2 sm:items-end text-muted-foreground'>
               <Link href={'/'}>Kathmandu, Nepal</Link>
-              <Link href={'mailto:contact@kuruwaa.com'}>
-                contact@kuruwaa.com
-              </Link>
+              <Link href={'mailto:contact@kuruwa.com'}>contact@kuruwa.com</Link>
               <Link href={'tel:+9779855011772'}>+977 985-5011772</Link>
               <Link href={'tel:+9779851175495'}>+977 985-1175495</Link>
             </nav>
@@ -98,7 +96,7 @@ export const Footer = () => {
         </div>
         <div className='text-center text-sm text-muted-foreground pt-12'>
           <p className=''>
-            Copyright &copy; {new Date().getFullYear()} Kuruwaa. All Rights
+            Copyright &copy; {new Date().getFullYear()} Kuruwa. All Rights
             Reserved | Design by{' '}
             <Link
               target='_blank'
@@ -128,7 +126,7 @@ export const Footer = () => {
           <div className='flex gap-6 py-6 justify-between items-start flex-wrap sm:flex-nowrap'>
             <div className='flex flex-col w-full gap-2 items-center sm:items-start'>
               <p className='font-medium text-lg text-primary'>
-                Download the Kuruwaa App
+                Download the Kuruwa App
               </p>
               <div className='flex gap-2 justify-start items-center'>
                 <Link href={''} className=''>
@@ -168,7 +166,7 @@ export const Footer = () => {
         </div>
         <div className='text-center text-sm md:text-base'>
           <p className=''>
-            Copyright &copy; {new Date().getFullYear()} Kuruwaa. All Rights
+            Copyright &copy; {new Date().getFullYear()} Kuruwa. All Rights
             Reserved | Design by{' '}
             <Link
               target='_blank'

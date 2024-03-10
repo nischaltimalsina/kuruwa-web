@@ -17,7 +17,7 @@ export const Services = () => {
               Your All-in-One Care Ecosystem
             </h2>
             <p className='mt-4 text-base sm:text-xl text-muted-foreground font-light'>
-              Kuruwaa goes beyond traditional healthcare, offering a
+              Kuruwa goes beyond traditional healthcare, offering a
               comprehensive suite of services designed to empower you to manage
               your health and well-being, your way. Here&apos;s how we can help
               you thrive:

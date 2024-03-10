@@ -1,11 +1,13 @@
 import React from 'react';
-import { Hero, History } from '..';
+import { AboutHero, Contact, History, Values } from '.';
 
 export const About = () => {
   return (
     <>
-      <Hero/>
+      <AboutHero/>
       <History/>
+      <Values/>
+      <Contact/>
     </>
   );
 };
