@@ -32,7 +32,6 @@ export const Services = () => {
                 <Image
                   placeholder='blur'
                   loading='lazy'
-                  priority
                   src={care}
                   alt=''
                   className='h-56 w-full object-cover rounded-lg hover:scale-125 duration-200'
@@ -55,7 +54,6 @@ export const Services = () => {
                 <Image
                   placeholder='blur'
                   loading='lazy'
-                  priority
                   src={plans}
                   alt=''
                   className='h-56 w-full object-cover rounded-lg hover:scale-125 duration-200'
@@ -78,7 +76,6 @@ export const Services = () => {
                 <Image
                   placeholder='blur'
                   loading='lazy'
-                  priority
                   src={deliver}
                   alt=''
                   className='h-56 w-full object-cover rounded-lg hover:scale-125 duration-200'
@@ -100,7 +97,6 @@ export const Services = () => {
                 <Image
                   placeholder='blur'
                   loading='lazy'
-                  priority
                   src={dose}
                   alt=''
                   className='h-56 w-full object-cover rounded-lg hover:scale-125 duration-200'
@@ -122,7 +118,6 @@ export const Services = () => {
                 <Image
                   placeholder='blur'
                   loading='lazy'
-                  priority
                   src={alltime}
                   alt=''
                   className='h-56 w-full object-cover rounded-lg hover:scale-125 duration-200'
@@ -144,7 +139,6 @@ export const Services = () => {
                 <Image
                   placeholder='blur'
                   loading='lazy'
-                  priority
                   src={know}
                   alt=''
                   className='h-56 w-full object-cover rounded-lg hover:scale-125 duration-200'
